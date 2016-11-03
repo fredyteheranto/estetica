@@ -3,8 +3,6 @@
 include_once 'lib/db.php';
 include_once 'config.php';
 include_once 'modelos/sucursal.php';
-$conn = new db($localdb->host, $localdb->db, $localdb->user, $localdb->pass);
-$conn_reporte = $conn->Conectar();
 
 class contoladorSucursal {
 
